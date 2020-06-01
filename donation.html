@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><title>Donate</title>
+
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="stylesheets.css">
+		<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+
+	</head>
+
+	<body>
+		<header class="Hlogo"><div class="ani"></div>
+		<a href="homepage.html"><img class="logo2" src="Hlogo.jpg" width="200px" height="200px"></a>
+
+		</header>
+		<nav>
+			<ul>
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="Articles.html">Articles</a></li>
+				<li><a href="social.html">Social Media</a></li>
+				<li><a href="survey.html">Survey</a></li>
+				<li><a href="donation.html">Donate</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="about us.html">About Us</a></li>
+				<li><a href="ppolicy.html">Privacy Policy</a></li>
+				<span class="sinsup"><li><a href="signup.html">Sign Up</a></li>
+				<li><a href="signin.html">Sign In</a></li>
+			</span>
+			</ul>
+		</nav>
+
+		<div class="b1">
+			<h1>Please consider making a donation</h1>
+			<p>If you found our website useful and would like to help us out by making a donation, please do so below.</p>
+
+			<form method="get" action="donationthanks.html">
+				
+					
+				
+				
+				
+				<script>
+					var pay=window.prompt("Enter 1 for Debit\nEnter 2 for PayPal");
+					if(pay==1){document.write("Credit Card number:<input type='text'><br>CCV Code:<input type='text' maxlength='4'><br>")}
+					else if(pay==2){document.write("Connect with paypal:<br><a href='https://paypal.com'><img src='paypal.png' style='height:100px;width:100px;'></a><br>")}	
+					else{window.alert("Enter 1 or 2")}
+				</script>
+				Donation amount:<input type="number" placeholder="USD"><br>
+				Donation message:<textarea placeholder="Tell us what you think!"></textarea><br>
+			<input type="submit" value="Send Donation">
+			</form>
+		</div>
+		<section class="intro">
+
+
+		</section>
+
+
+		<footer class="home">
+
+		</footer>
+	</body>
+
+</html>
